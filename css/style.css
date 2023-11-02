@@ -983,8 +983,14 @@ news
 }
 .ds__site__option__list__item {
   position: relative;
-  width: 23%;
+  width: 24%;
   margin-right: 10px;
+}
+@media screen and (max-width: 1250px) {
+  .ds__site__option__list__item {
+    width: 23%;
+    margin-right: 8px;
+  }
 }
 @media screen and (max-width: 830px) {
   .ds__site__option__list__item {
@@ -1041,9 +1047,14 @@ news
     top: 10.5%;
   }
 }
+@media screen and (max-width: 1140px) {
+  .ds__site__option__list__item__box {
+    top: 9.5%;
+  }
+}
 @media screen and (max-width: 1100px) {
   .ds__site__option__list__item__box {
-    top: 8.5%;
+    top: 5.5%;
   }
 }
 @media screen and (max-width: 950px) {

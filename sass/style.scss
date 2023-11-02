@@ -1032,8 +1032,13 @@ news
 
         &__item {
             position: relative;
-            width: 23%;
+            width: 24%;
             margin-right: 10px;
+
+            @media screen and (max-width: 1250px) {
+                width: 23%;
+                margin-right: 8px;
+            }
 
 
             @media screen and (max-width: 830px) {
@@ -1090,8 +1095,12 @@ news
                     top: 10.5%;
                 }
 
+                @media screen and (max-width: 1140px) {
+                    top: 9.5%;
+                }
+
                 @media screen and (max-width: 1100px) {
-                    top: 8.5%;
+                    top: 5.5%;
                 }
 
                 @media screen and (max-width: 950px) {
