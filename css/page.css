@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/*--------------------------------
+基本設定
+---------------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap");
+/*--------------------------------
+コースページ
+---------------------------------*/
+.ds__course__top {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 380px;
+  background: url("../img/ds_about01.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.ds__course__top::after {
+  content: "";
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  opacity: 0.8;
+}
+.ds__course__top__title {
+  position: absolute;
+  z-index: 3;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-size: 3.8rem;
+  font-weight: bold;
+  color: #957365;
+  line-height: 1.8rem;
+}
+.ds__course__top__title--sub {
+  font-size: 0.8rem;
+  font-weight: normal;
+}
