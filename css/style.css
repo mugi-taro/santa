@@ -184,7 +184,7 @@ li {
   top: 23%;
   content: "";
   width: 30px;
-  height: 4px;
+  height: 3px;
   border-radius: 10px;
   background: #957365;
 }
@@ -205,19 +205,9 @@ li {
 .ds__site__title__text--course {
   color: #fff;
 }
-@media screen and (max-width: 1000px) {
-  .ds__site__title__text--option {
-    padding: 60px 32px;
-  }
-}
-@media screen and (max-width: 800px) {
-  .ds__site__title__text--option {
-    padding: 60px 24px;
-  }
-}
 @media screen and (max-width: 540px) {
   .ds__site__title__text--option {
-    padding: 72px 12px;
+    padding: 0 12px;
   }
 }
 .ds__site__title--course {
@@ -228,26 +218,16 @@ li {
   top: 23%;
   content: "";
   width: 30px;
-  height: 4px;
+  height: 3px;
   border-radius: 10px;
   background: #fff;
 }
 .ds__site__title--course h2 {
   margin-left: 44px;
 }
-@media screen and (max-width: 1000px) {
-  .ds__site__title--option {
-    padding: 60px 32px;
-  }
-}
-@media screen and (max-width: 800px) {
-  .ds__site__title--option {
-    padding: 60px 24px;
-  }
-}
 @media screen and (max-width: 540px) {
   .ds__site__title--option {
-    padding: 72px 12px;
+    padding: 0 12px;
   }
 }
 .ds__site__title--option::before {
@@ -255,7 +235,7 @@ li {
   top: 23%;
   content: "";
   width: 30px;
-  height: 4px;
+  height: 3px;
   border-radius: 10px;
   background: #957365;
 }

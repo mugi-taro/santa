@@ -185,7 +185,7 @@ li {
             top: 23%;
             content: "";
             width: 30px;
-            height: 4px;
+            height: 3px;
             border-radius: 10px;
             background: $normal_brown;
         }
@@ -212,16 +212,8 @@ li {
             &--option {
                 @extend .ds__site__title__text;
 
-                @media screen and (max-width: 1000px) {
-                    padding: 60px 32px;
-                }
-            
-                @media screen and (max-width: 800px) {
-                    padding: 60px 24px;
-                }
-            
                 @media screen and (max-width: 540px) {
-                    padding: 72px 12px;
+                    padding: 0 12px;
                 }
             }
         }
@@ -235,7 +227,7 @@ li {
                 top: 23%;
                 content: "";
                 width: 30px;
-                height: 4px;
+                height: 3px;
                 border-radius: 10px;
                 background: $white;
             }
@@ -248,16 +240,9 @@ li {
         &--option {
             @extend .ds__site__title;
 
-            @media screen and (max-width: 1000px) {
-                padding: 60px 32px;
-            }
-        
-            @media screen and (max-width: 800px) {
-                padding: 60px 24px;
-            }
         
             @media screen and (max-width: 540px) {
-                padding: 72px 12px;
+                padding:0 12px;
             }
 
             &::before {
@@ -265,7 +250,7 @@ li {
                 top: 23%;
                 content: "";
                 width: 30px;
-                height: 4px;
+                height: 3px;
                 border-radius: 10px;
                 background: $normal_brown;
             }
