@@ -221,7 +221,6 @@ li {
   height: 4px;
   border-radius: 10px;
   background: #fff;
-  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
 }
 .ds__site__title--course h2 {
   margin-left: 44px;
@@ -239,7 +238,6 @@ li {
   height: 4px;
   border-radius: 10px;
   background: #957365;
-  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
 }
 .ds__site__title--option h2 {
   margin-left: 44px;
