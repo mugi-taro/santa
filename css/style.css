@@ -205,9 +205,19 @@ li {
 .ds__site__title__text--course {
   color: #fff;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1000px) {
   .ds__site__title__text--option {
-    padding: 0 32px;
+    padding: 60px 32px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .ds__site__title__text--option {
+    padding: 60px 24px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .ds__site__title__text--option {
+    padding: 72px 12px;
   }
 }
 .ds__site__title--course {
@@ -225,9 +235,19 @@ li {
 .ds__site__title--course h2 {
   margin-left: 44px;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1000px) {
   .ds__site__title--option {
-    padding: 0 27px;
+    padding: 60px 32px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .ds__site__title--option {
+    padding: 60px 24px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .ds__site__title--option {
+    padding: 72px 12px;
   }
 }
 .ds__site__title--option::before {

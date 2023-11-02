@@ -212,8 +212,16 @@ li {
             &--option {
                 @extend .ds__site__title__text;
 
-                @media screen and (max-width: 500px) {
-                    padding: 0 32px;
+                @media screen and (max-width: 1000px) {
+                    padding: 60px 32px;
+                }
+            
+                @media screen and (max-width: 800px) {
+                    padding: 60px 24px;
+                }
+            
+                @media screen and (max-width: 540px) {
+                    padding: 72px 12px;
                 }
             }
         }
@@ -240,8 +248,16 @@ li {
         &--option {
             @extend .ds__site__title;
 
-            @media screen and (max-width: 500px) {
-                padding: 0 27px;
+            @media screen and (max-width: 1000px) {
+                padding: 60px 32px;
+            }
+        
+            @media screen and (max-width: 800px) {
+                padding: 60px 24px;
+            }
+        
+            @media screen and (max-width: 540px) {
+                padding: 72px 12px;
             }
 
             &::before {
