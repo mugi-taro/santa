@@ -169,7 +169,6 @@ li {
         font-weight: bold;
         letter-spacing: 0.4rem;
         color: $normal_brown;
-        text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
         line-height: 1.5rem;
 
         @media screen and (max-width: 800px) {
@@ -728,7 +727,7 @@ TOP
 
         @media screen and (max-width: 500px) {
             position: absolute;
-            bottom: 12px;
+            bottom: 2px;
         }
 
         & li {
@@ -893,6 +892,7 @@ news
 
             @media screen and (max-width: 540px) {
                 width: 100%;
+                margin-right: 0;
             }
 
             &:nth-child(2) {
@@ -935,6 +935,15 @@ news
 
                 @media screen and (max-width: 1200px) {
                     font-size: 1.2rem;
+                }
+
+                @media screen and (max-width: 880px) {
+                    font-size: 1.4rem;
+                }
+
+                @media screen and (max-width: 540px) {
+                    font-size: 1.6rem;
+                    line-height: 0.9;
                 }
 
                 &--sub {
@@ -1209,7 +1218,7 @@ news
             }
 
             @media screen and (max-width: 450px) {
-                min-height: 375px;
+                min-height: 350px;
             }
 
             @media screen and (max-width: 320px) {

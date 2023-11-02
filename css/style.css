@@ -166,7 +166,6 @@ li {
   font-weight: bold;
   letter-spacing: 0.4rem;
   color: #957365;
-  text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
   line-height: 1.5rem;
 }
 @media screen and (max-width: 800px) {
@@ -694,7 +693,7 @@ TOP
 @media screen and (max-width: 500px) {
   .top__slider__dots .slick-dots {
     position: absolute;
-    bottom: 12px;
+    bottom: 2px;
   }
 }
 .top__slider__dots .slick-dots li {
@@ -855,6 +854,7 @@ news
 @media screen and (max-width: 540px) {
   .ds__site__course__list__item {
     width: 100%;
+    margin-right: 0;
   }
 }
 .ds__site__course__list__item:nth-child(2) {
@@ -898,6 +898,17 @@ news
 @media screen and (max-width: 1200px) {
   .ds__site__course__list__item__title {
     font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 880px) {
+  .ds__site__course__list__item__title {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (max-width: 540px) {
+  .ds__site__course__list__item__title {
+    font-size: 1.6rem;
+    line-height: 0.9;
   }
 }
 .ds__site__course__list__item__title--sub {
@@ -1165,7 +1176,7 @@ news
 }
 @media screen and (max-width: 450px) {
   .ds__site__foods__flex__text {
-    min-height: 375px;
+    min-height: 350px;
   }
 }
 @media screen and (max-width: 320px) {
