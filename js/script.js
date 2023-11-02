@@ -40,6 +40,11 @@ $(function () {
                 settings: {
                     centerPadding: '11.5%',
                 },
+
+                breakpoint: 501,
+                settings: {
+                    centerPadding: '5%',
+                },
             },
         ],
     });
