@@ -1398,7 +1398,6 @@ news
   height: 3px;
   border-radius: 10px;
   background: #A4907C;
-  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
 }
 @media screen and (max-width: 768px) {
   .ds__site__info__list__item__title::before {
@@ -1424,7 +1423,7 @@ news
 @media screen and (max-width: 768px) {
   .ds__site__info__list__item__text {
     margin-top: -16px;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 }
 .ds__site__info__list__item__annotion {
