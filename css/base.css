@@ -1,0 +1,87 @@
+/*--------------------------------
+レイアウト
+---------------------------------*/
+body {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    letter-spacing: .8px;
+    color: #333;
+}
+
+a {
+    transition: opacity .3s;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: bottom;
+    border-style: none;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.for_PC {
+    display: block;
+}
+
+.for_SP {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 0.8rem;
+        line-height: 1.7;
+    }
+
+    .for_PC{
+        display: none;
+    }
+
+    .for_SP {
+        display: block;
+    }
+}
+
+.section {
+    padding: 100px 0;
+}
+
+.inner {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    .section {
+        padding: 60px 0;
+    }
+
+    .inner {
+        padding: 15px 20px;
+    }
+
+}
+
+._text-center{
+    text-align: center;
+}
+
+._red-line {
+    border-bottom: 5px solid #FA7070;
+}
+
+._green-line {
+    border-bottom: 5px solid #A1C298;
+}
+
+
+.glay {
+    color: rgb(144, 143, 143);
+}
+
