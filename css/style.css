@@ -187,7 +187,6 @@ li {
   height: 4px;
   border-radius: 10px;
   background: #957365;
-  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
 }
 .ds__site__title h2, .ds__site__info__list__item__title h2, .ds__site__title--option h2, .ds__site__title--course h2 {
   margin-left: 44px;
@@ -772,7 +771,6 @@ news
   font-size: 3.2rem;
   font-weight: bold;
   color: #957365;
-  text-shadow: 2px 4px 6px #B9B9B9;
   line-height: 1.3rem;
 }
 @media screen and (max-width: 768px) {

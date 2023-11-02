@@ -188,7 +188,6 @@ li {
             height: 4px;
             border-radius: 10px;
             background: $normal_brown;
-            box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
         }
 
         & h2 {
@@ -809,7 +808,6 @@ news
         font-size: 3.2rem;
         font-weight: bold;
         color: $normal_brown;
-        text-shadow: 2px 4px 6px #B9B9B9;
         line-height: 1.3rem;
 
         @media screen and (max-width: 768px) {
