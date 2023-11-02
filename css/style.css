@@ -861,7 +861,17 @@ news
 }
 @media screen and (max-width: 460px) {
   .ds__site__newsSection {
+    margin-top: -110px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .ds__site__newsSection {
     margin-top: -90px;
+  }
+}
+@media screen and (max-width: 330px) {
+  .ds__site__newsSection {
+    margin-top: -120px;
   }
 }
 
