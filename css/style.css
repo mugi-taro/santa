@@ -181,7 +181,7 @@ li {
 }
 .ds__site__title::before, .ds__site__info__list__item__title::before, .ds__site__title--option::before, .ds__site__title--course::before {
   position: absolute;
-  top: 18%;
+  top: 23%;
   content: "";
   width: 30px;
   height: 4px;
@@ -215,7 +215,7 @@ li {
 }
 .ds__site__title--course::before {
   position: absolute;
-  top: 18%;
+  top: 23%;
   content: "";
   width: 30px;
   height: 4px;
@@ -232,7 +232,7 @@ li {
 }
 .ds__site__title--option::before {
   position: absolute;
-  top: 18%;
+  top: 23%;
   content: "";
   width: 30px;
   height: 4px;
