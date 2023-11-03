@@ -26,6 +26,10 @@ $white: #fff;
     background-repeat: no-repeat;
     text-align: center;
 
+    @media screen and (max-width: 500px) {
+        height: 280px;
+    }
+
     &::after {
         content: '';
         position: absolute;
@@ -51,9 +55,124 @@ $white: #fff;
         font-weight: bold;
         color: $normal_brown;
         line-height: 1.8rem;
-        &--sub{
+
+        @media screen and (max-width: 500px) {
+            font-size: 2.8rem;
+            ;
+            line-height: 1.2rem;
+        }
+
+        &--sub {
             font-size: 0.8rem;
             font-weight: normal;
+
+            @media screen and (max-width: 500px) {
+                font-size: 0.6rem;
+                ;
+            }
+        }
+
+    }
+}
+
+// 記事全体
+article {
+    background: rgb(125, 155, 129, 0.4)
+}
+
+.ds__course__section {
+    padding: 128px 0 80px 0;
+
+}
+
+// コース詳細
+.ds__course__detail {
+    background: $white;
+    padding: 44px 40px;
+
+    &__flex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        & img {
+            width: 50%;
+        }
+    }
+
+    &__text {
+        width: 43%;
+    }
+
+    &__title {
+        margin-bottom: 32px;
+
+        & span {
+            background: $light_brown;
+            padding: 8px 24px;
+            color: $white;
+            font-size: 1.2rem;
+            letter-spacing: 0.12rem;
+        }
+    }
+
+    &__cc{
+        margin-bottom: 36px;
+        font-size: 1.4rem;
+        font-weight: bold;
+        letter-spacing: 0.2rem;
+    }
+
+    &__txt{
+        font-size: 0.8rem;
+        margin-bottom: 20px;
+        line-height: 2rem;
+    }
+
+    &__content{
+        border: 1px solid $light_brown;
+        padding:14px 18px ;
+
+        &__title{
+            position: relative;
+            color: $light_brown;
+            font-size: 1rem;
+            font-weight: bold;
+            margin-bottom: 12px;
+
+            ::after{
+                position: absolute;
+                content: "";
+                width: 86px;
+                height: 1px;
+                bottom: -2px;
+                left: 0;
+                background: $light_brown;
+                opacity: 0.6;
+            }
+
+        }
+
+        &__txt{
+            & li {
+                display: block;
+                position: relative;
+                padding-left: 1.5em;
+
+                & span {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
+            }
+
+            & a {
+                text-decoration: underline;
+
+                &:hover {
+                    opacity: 0.6;
+                }
+            }
         }
     }
 }
