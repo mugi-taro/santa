@@ -127,9 +127,10 @@ article {
     margin-bottom: 24px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 500px) {
   .ds__course__detail__cc {
     font-size: 1.2rem;
+    margin-bottom: 18px;
   }
 }
 .ds__course__detail__txt {
@@ -181,7 +182,7 @@ article {
 }
 @media screen and (max-width: 768px) {
   .ds__course__detail__tax {
-    padding: 12px 4px;
+    padding: 6px 4px;
   }
 }
 .ds__course__detail__tax__title {
@@ -195,15 +196,16 @@ article {
 }
 .ds__course__detail__tax__price dl {
   padding: 16px 12px;
-  border-bottom: solid 1px #A4907C;
+  border-bottom: 1px dotted #A4907C;
 }
 @media screen and (max-width: 768px) {
   .ds__course__detail__tax__price dl {
+    margin-bottom: 12px;
     border-bottom: none;
   }
 }
 .ds__course__detail__tax__price dl:first-child {
-  border-top: solid 1px #A4907C;
+  border-top: 1px dotted #A4907C;
 }
 @media screen and (max-width: 768px) {
   .ds__course__detail__tax__price dl:first-child {
@@ -218,7 +220,9 @@ article {
 }
 @media screen and (max-width: 768px) {
   .ds__course__detail__tax__price dt {
-    background-color: #eee;
+    font-size: 1rem;
+    background-color: #A4907C;
+    color: #fff;
     padding: 4px 10px;
     margin: 0 -10px 6px;
     width: auto;

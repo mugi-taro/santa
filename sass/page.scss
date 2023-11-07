@@ -144,8 +144,9 @@ article {
             margin-bottom: 24px;
         }
 
-        @media screen and (max-width: 768px) {
+        @media screen and (max-width: 500px) {
             font-size: 1.2rem;
+            margin-bottom: 18px;
         }
     }
 
@@ -208,7 +209,7 @@ article {
         border: 2px solid $light_brown;
 
         @media screen and (max-width: 768px) {
-            padding: 12px 4px;
+            padding: 6px 4px;
         }
 
         &__title {
@@ -223,15 +224,16 @@ article {
 
             & dl {
                 padding: 16px 12px;
-                border-bottom: solid 1px $light_brown;
+                border-bottom:1px dotted $light_brown;
 
                 @media screen and (max-width: 768px) {
+                    margin-bottom: 12px;
                     border-bottom: none;
                 }
             }
 
             & dl:first-child {
-                border-top: solid 1px $light_brown;
+                border-top:1px dotted $light_brown;
 
                 @media screen and (max-width: 768px) {
                     border-top: none;
@@ -245,7 +247,9 @@ article {
                 float: left;
 
                 @media screen and (max-width: 768px) {
-                    background-color: #eee;
+                    font-size: 1rem;
+                    background-color: $light_brown;
+                    color: $white;
                     padding: 4px 10px;
                     margin: 0 -10px 6px;
                     width: auto;

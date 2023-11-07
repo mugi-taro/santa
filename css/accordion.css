@@ -37,6 +37,15 @@
 	transform: translateY(25%) rotate(-45deg);
 }
 
+@media screen and (max-width: 550px) {
+	.accordion_title::before {
+		width: 0.8em;
+		height: 0.8em;
+		top: 31%;
+		left: 62%;
+	}
+}
+
 .accordion_title.open::before {
 	transform: translateY(-25%) rotate(135deg);
 }
