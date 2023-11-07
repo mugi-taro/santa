@@ -90,6 +90,11 @@ article {
     background: $white;
     padding: 44px 40px;
 
+    @media screen and (max-width: 768px) {
+        padding: 44px 8px;
+        margin: 0 8px;
+    }
+
     &__flex {
         display: flex;
         flex-wrap: wrap;
@@ -97,15 +102,28 @@ article {
 
         & img {
             width: 50%;
+
+            @media screen and (max-width: 768px) {
+                width: 100%;
+            }
         }
     }
 
     &__text {
         width: 43%;
+
+        @media screen and (max-width: 768px) {
+            width: 100%;
+            margin-top: 24px;
+        }
     }
 
     &__title {
         margin-bottom: 32px;
+
+        @media screen and (max-width: 768px) {
+            margin-bottom: 18px;
+        }
 
         & span {
             background: $light_brown;
@@ -116,31 +134,39 @@ article {
         }
     }
 
-    &__cc{
+    &__cc {
         margin-bottom: 36px;
         font-size: 1.4rem;
         font-weight: bold;
         letter-spacing: 0.2rem;
+
+        @media screen and (max-width: 768px) {
+            margin-bottom: 24px;
+        }
+
+        @media screen and (max-width: 768px) {
+            font-size: 1.2rem;
+        }
     }
 
-    &__txt{
+    &__txt {
         font-size: 0.8rem;
         margin-bottom: 20px;
         line-height: 2rem;
     }
 
-    &__content{
+    &__content {
         border: 1px solid $light_brown;
-        padding:14px 18px ;
+        padding: 14px 18px;
 
-        &__title{
+        &__title {
             position: relative;
             color: $light_brown;
             font-size: 1rem;
             font-weight: bold;
             margin-bottom: 12px;
 
-            ::after{
+            ::after {
                 position: absolute;
                 content: "";
                 width: 86px;
@@ -153,7 +179,7 @@ article {
 
         }
 
-        &__txt{
+        &__txt {
             & li {
                 display: block;
                 position: relative;
@@ -176,7 +202,66 @@ article {
         }
     }
 
-    &__tax{
+    &__tax {
         margin: 24px 0;
+        padding: 12px 24px;
+        border: 2px solid $light_brown;
+
+        @media screen and (max-width: 768px) {
+            padding: 12px 4px;
+        }
+
+        &__title {
+            text-align: center;
+            font-size: 1.4rem;
+            color: $light_brown;
+        }
+
+        &__price {
+            margin-top: 16px;
+            color: $light_brown;
+
+            & dl {
+                padding: 16px 12px;
+                border-bottom: solid 1px $light_brown;
+
+                @media screen and (max-width: 768px) {
+                    border-bottom: none;
+                }
+            }
+
+            & dl:first-child {
+                border-top: solid 1px $light_brown;
+
+                @media screen and (max-width: 768px) {
+                    border-top: none;
+                }
+            }
+
+            & dt {
+                width: 240px;
+                font-weight: bold;
+                font-size: 1.2rem;
+                float: left;
+
+                @media screen and (max-width: 768px) {
+                    background-color: #eee;
+                    padding: 4px 10px;
+                    margin: 0 -10px 6px;
+                    width: auto;
+                    float: none;
+                }
+            }
+        }
+
+        & dd {
+            margin-left: 240px;
+            line-height: 2rem;
+            letter-spacing: 0.3rem;
+
+            @media screen and (max-width: 768px) {
+                margin-left: 0;
+            }
+        }
     }
 }

@@ -73,6 +73,12 @@ article {
   background: #fff;
   padding: 44px 40px;
 }
+@media screen and (max-width: 768px) {
+  .ds__course__detail {
+    padding: 44px 8px;
+    margin: 0 8px;
+  }
+}
 .ds__course__detail__flex {
   display: flex;
   flex-wrap: wrap;
@@ -81,11 +87,27 @@ article {
 .ds__course__detail__flex img {
   width: 50%;
 }
+@media screen and (max-width: 768px) {
+  .ds__course__detail__flex img {
+    width: 100%;
+  }
+}
 .ds__course__detail__text {
   width: 43%;
 }
+@media screen and (max-width: 768px) {
+  .ds__course__detail__text {
+    width: 100%;
+    margin-top: 24px;
+  }
+}
 .ds__course__detail__title {
   margin-bottom: 32px;
+}
+@media screen and (max-width: 768px) {
+  .ds__course__detail__title {
+    margin-bottom: 18px;
+  }
 }
 .ds__course__detail__title span {
   background: #A4907C;
@@ -99,6 +121,16 @@ article {
   font-size: 1.4rem;
   font-weight: bold;
   letter-spacing: 0.2rem;
+}
+@media screen and (max-width: 768px) {
+  .ds__course__detail__cc {
+    margin-bottom: 24px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .ds__course__detail__cc {
+    font-size: 1.2rem;
+  }
 }
 .ds__course__detail__txt {
   font-size: 0.8rem;
@@ -144,4 +176,62 @@ article {
 }
 .ds__course__detail__tax {
   margin: 24px 0;
+  padding: 12px 24px;
+  border: 2px solid #A4907C;
+}
+@media screen and (max-width: 768px) {
+  .ds__course__detail__tax {
+    padding: 12px 4px;
+  }
+}
+.ds__course__detail__tax__title {
+  text-align: center;
+  font-size: 1.4rem;
+  color: #A4907C;
+}
+.ds__course__detail__tax__price {
+  margin-top: 16px;
+  color: #A4907C;
+}
+.ds__course__detail__tax__price dl {
+  padding: 16px 12px;
+  border-bottom: solid 1px #A4907C;
+}
+@media screen and (max-width: 768px) {
+  .ds__course__detail__tax__price dl {
+    border-bottom: none;
+  }
+}
+.ds__course__detail__tax__price dl:first-child {
+  border-top: solid 1px #A4907C;
+}
+@media screen and (max-width: 768px) {
+  .ds__course__detail__tax__price dl:first-child {
+    border-top: none;
+  }
+}
+.ds__course__detail__tax__price dt {
+  width: 240px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  float: left;
+}
+@media screen and (max-width: 768px) {
+  .ds__course__detail__tax__price dt {
+    background-color: #eee;
+    padding: 4px 10px;
+    margin: 0 -10px 6px;
+    width: auto;
+    float: none;
+  }
+}
+.ds__course__detail__tax dd {
+  margin-left: 240px;
+  line-height: 2rem;
+  letter-spacing: 0.3rem;
+}
+@media screen and (max-width: 768px) {
+  .ds__course__detail__tax dd {
+    margin-left: 0;
+  }
 }
