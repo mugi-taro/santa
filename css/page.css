@@ -142,3 +142,6 @@ article {
 .ds__course__detail__content__txt a:hover {
   opacity: 0.6;
 }
+.ds__course__detail__tax {
+  margin: 24px 0;
+}

@@ -76,6 +76,14 @@ $(function () {
         autoplaySpeed: 2000,
         dots: false,
     });
+
+    // アコーディオン
+    $(".js-accordion_title").on("click", function () {
+        // クリックした次の要素を開閉
+        $(this).next().slideToggle(300);
+        // タイトルにopenクラスを付け外しして矢印の向きを変更
+        $(this).toggleClass("open", 300);
+    });
 });
 
 /* ハンバーガーメニュー */
@@ -95,3 +103,4 @@ $('#js_hamburger a[href]').on('click', function (event) {
 $('.gnav__logo a[href]').on('click', function (event) {
     document.querySelector('html').classList.remove('open');
 });
+

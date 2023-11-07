@@ -1,0 +1,42 @@
+.accordion_title {
+	position: relative;
+}
+
+.accordion-content {
+	display: none;
+	padding: 10px 20px 10px 20px;
+}
+
+.accordion-content.open {
+	display: block;
+}
+
+/* 矢印 */
+.accordion_title::before {
+	content: "";
+	position: absolute;
+	right: 1.25em;
+	top: 25%;
+	width: 3px;
+	height: 1em;
+	background-color: #333;
+	transition: all 0.3s;
+	border-radius: 30px;
+	transform: rotate(-90deg);
+}
+
+.accordion_title::after {
+	content: "";
+	position: absolute;
+	right: 1.25em;
+	top: 25%;
+	width: 3px;
+	height: 1em;
+	background-color: #333;
+	transition: all 0.3s;
+	border-radius: 30px;
+}
+
+.accordion_title.open::after {
+	transform: rotate(-90deg);
+}
