@@ -89,8 +89,10 @@ article {
 .ds__course__detail {
     background: $white;
     padding: 44px 40px;
+    margin-bottom: 64px;
 
     @media screen and (max-width: 768px) {
+        margin-bottom: 32px;
         padding: 44px 8px;
         margin: 0 8px;
     }

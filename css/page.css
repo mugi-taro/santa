@@ -72,9 +72,11 @@ article {
 .ds__course__detail {
   background: #fff;
   padding: 44px 40px;
+  margin-bottom: 64px;
 }
 @media screen and (max-width: 768px) {
   .ds__course__detail {
+    margin-bottom: 32px;
     padding: 44px 8px;
     margin: 0 8px;
   }
