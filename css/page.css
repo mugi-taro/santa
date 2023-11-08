@@ -18,7 +18,7 @@
 }
 @media screen and (max-width: 500px) {
   .ds__course__top {
-    height: 280px;
+    height: 200px;
   }
 }
 .ds__course__top::after {
@@ -47,6 +47,7 @@
 }
 @media screen and (max-width: 500px) {
   .ds__course__top__title {
+    top: 70%;
     font-size: 2.8rem;
     line-height: 1.2rem;
   }
@@ -68,6 +69,12 @@ article {
 .ds__course__section {
   padding: 128px 0 80px 0;
 }
+.ds__course__section._pt-0 {
+  padding-top: 0;
+}
+.ds__course__section._pb-128 {
+  padding-bottom: 200px;
+}
 
 .ds__course__detail {
   background: #fff;
@@ -76,9 +83,8 @@ article {
 }
 @media screen and (max-width: 768px) {
   .ds__course__detail {
-    margin-bottom: 32px;
-    padding: 44px 8px;
-    margin: 0 8px;
+    padding: 12px 8px;
+    margin: 0 8px 32px;
   }
 }
 .ds__course__detail__flex {
@@ -113,7 +119,7 @@ article {
 }
 .ds__course__detail__title span {
   background: #A4907C;
-  padding: 8px 24px;
+  padding: 4px 16px;
   color: #fff;
   font-size: 1.2rem;
   letter-spacing: 0.12rem;
@@ -178,7 +184,7 @@ article {
   opacity: 0.6;
 }
 .ds__course__detail__tax {
-  margin: 24px 0;
+  margin: 52px 0 12px 0;
   padding: 12px 24px;
   border: 2px solid #A4907C;
 }
@@ -240,4 +246,54 @@ article {
   .ds__course__detail__tax dd {
     margin-left: 0;
   }
+}
+
+.ds__course__common {
+  border: 1px solid #A4907C;
+  padding: 44px 52px;
+}
+@media screen and (max-width: 768px) {
+  .ds__course__common {
+    padding: 22px 12px;
+    margin: 0 8px;
+  }
+}
+.ds__course__common__title {
+  position: relative;
+  font-size: 1.4rem;
+  letter-spacing: 0.6rem;
+  color: #A4907C;
+  margin-bottom: 24px;
+}
+.ds__course__common__title::after {
+  position: absolute;
+  content: "";
+  width: 120px;
+  height: 1px;
+  bottom: -2px;
+  left: 0;
+  background: #A4907C;
+}
+.ds__course__common__txt li {
+  display: block;
+  position: relative;
+  padding-left: 1.5em;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+@media screen and (max-width: 768px) {
+  .ds__course__common__txt li {
+    font-size: 1rem;
+  }
+}
+.ds__course__common__txt li span {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.ds__course__common__txt__anno {
+  font-size: 0.8rem !important;
+  margin-bottom: 0.6rem !important;
+  letter-spacing: 0.2rem;
+  opacity: 0.6;
 }
