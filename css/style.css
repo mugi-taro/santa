@@ -159,7 +159,7 @@ li {
   }
 }
 .ds__site__inner--course {
-  padding: 80px 110px;
+  padding: 0 110px;
 }
 @media screen and (max-width: 1200px) {
   .ds__site__inner--course {
