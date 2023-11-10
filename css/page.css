@@ -10,7 +10,7 @@
   position: relative;
   z-index: 1;
   width: 100%;
-  height: 380px;
+  height: 280px;
   background: url("../img/ds_about01.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -18,7 +18,7 @@
 }
 @media screen and (max-width: 500px) {
   .ds__course__top {
-    height: 200px;
+    height: 180px;
   }
 }
 .ds__course__top::after {
@@ -35,12 +35,12 @@
 .ds__course__top__title {
   position: absolute;
   z-index: 3;
-  top: 60%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  font-size: 3.8rem;
+  font-size: 3rem;
   font-weight: bold;
   color: #957365;
   line-height: 1.8rem;
@@ -48,7 +48,7 @@
 @media screen and (max-width: 500px) {
   .ds__course__top__title {
     top: 70%;
-    font-size: 2.8rem;
+    font-size: 2.2rem;
     line-height: 1.2rem;
   }
 }
@@ -77,13 +77,12 @@
 }
 
 .ds__page__section {
-  padding: 128px 0 80px 0;
+  padding: 64px 0 80px 0;
 }
-.ds__page__section._pt-0 {
-  padding-top: 0;
-}
-.ds__page__section._pb-128 {
-  padding-bottom: 200px;
+@media screen and (max-width: 550px) {
+  .ds__page__section {
+    padding: 16px 0 20px 0;
+  }
 }
 
 .ds__course__detail {
@@ -93,7 +92,7 @@
 }
 @media screen and (max-width: 768px) {
   .ds__course__detail {
-    padding: 12px 8px;
+    padding: 44px 8px;
     margin: 0 8px 32px;
   }
 }
@@ -116,7 +115,7 @@
 @media screen and (max-width: 768px) {
   .ds__course__detail__text {
     width: 100%;
-    margin-top: 24px;
+    margin-top: 32px;
   }
 }
 .ds__course__detail__title {
@@ -124,7 +123,7 @@
 }
 @media screen and (max-width: 768px) {
   .ds__course__detail__title {
-    margin-bottom: 18px;
+    margin-bottom: 24px;
   }
 }
 .ds__course__detail__title span {
@@ -148,13 +147,18 @@
 @media screen and (max-width: 500px) {
   .ds__course__detail__cc {
     font-size: 1.2rem;
-    margin-bottom: 18px;
+    margin-bottom: 16px;
   }
 }
 .ds__course__detail__txt {
   font-size: 0.8rem;
   margin-bottom: 20px;
   line-height: 2rem;
+}
+@media screen and (max-width: 500px) {
+  .ds__course__detail__txt {
+    margin-bottom: 44px;
+  }
 }
 .ds__course__detail__content {
   border: 1px solid #A4907C;
@@ -294,6 +298,7 @@
 @media screen and (max-width: 768px) {
   .ds__course__common__txt li {
     font-size: 1rem;
+    letter-spacing: 0.2rem;
   }
 }
 .ds__course__common__txt li span {
@@ -321,6 +326,11 @@
   opacity: 0.5;
 }
 .ds__page__img {
-  width: 60%;
-  margin: 32px auto;
+  width: 50%;
+  margin: 32px auto 44px auto;
+}
+@media screen and (max-width: 550px) {
+  .ds__page__img {
+    width: 70%;
+  }
 }
