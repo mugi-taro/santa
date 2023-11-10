@@ -62,7 +62,7 @@
   }
 }
 
-article {
+.ds__course__article {
   background: rgba(125, 155, 129, 0.4);
 }
 
@@ -73,6 +73,16 @@ article {
   padding-top: 0;
 }
 .ds__course__section._pb-128 {
+  padding-bottom: 200px;
+}
+
+.ds__page__section {
+  padding: 128px 0 80px 0;
+}
+.ds__page__section._pt-0 {
+  padding-top: 0;
+}
+.ds__page__section._pb-128 {
   padding-bottom: 200px;
 }
 
@@ -296,4 +306,21 @@ article {
   margin-bottom: 0.6rem !important;
   letter-spacing: 0.2rem;
   opacity: 0.6;
+}
+
+.ds__page__title {
+  font-size: 1.6rem;
+  line-height: 2rem;
+  letter-spacing: 0.2rem;
+  padding: 12px 4px;
+  border-bottom: 3px solid #92817A;
+}
+.ds__page__time {
+  font-size: 0.8rem;
+  color: #030303;
+  opacity: 0.5;
+}
+.ds__page__img {
+  width: 60%;
+  margin: 32px auto;
 }

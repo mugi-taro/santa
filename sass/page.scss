@@ -76,11 +76,26 @@ $white: #fff;
 }
 
 // 記事全体
-article {
+.ds__course__article {
     background: rgb(125, 155, 129, 0.4)
 }
 
 .ds__course__section {
+    padding: 128px 0 80px 0;
+
+    &._pt-0{
+        padding-top: 0;
+    }
+
+    &._pb-128{
+        padding-bottom: 200px;
+    }
+
+
+
+}
+
+.ds__page__section {
     padding: 128px 0 80px 0;
 
     &._pt-0{
@@ -329,6 +344,29 @@ article {
             letter-spacing: 0.2rem;
             opacity: 0.6;
         }
+    }
+}
+
+
+// 記事ページ
+.ds__page{
+    &__title{
+        font-size: 1.6rem;
+        line-height: 2rem;
+        letter-spacing: 0.2rem;
+        padding:12px 4px ;
+        border-bottom:3px solid $deep_brown;
+    }
+
+    &__time{
+        font-size: 0.8rem;
+        color: #030303;
+        opacity: 0.5;
+    }
+
+    &__img{
+        width: 60%;
+        margin:32px auto;
     }
 }
     
