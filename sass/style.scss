@@ -158,6 +158,14 @@ li {
             padding: 72px 5px;
         }
     }
+
+    &--course {
+        padding: 80px 110px;
+
+        @media screen and (max-width: 1200px) {
+            padding: 0;
+        }
+    }
 }
 
 // タイトルとテキスト
