@@ -93,6 +93,19 @@ $white: #fff;
 
 }
 
+.ds__option__section {
+    padding: 128px 0 80px 0;
+
+    &._pt-0{
+        padding-top: 0;
+    }
+
+    &._pb-128{
+        padding-bottom: 200px;
+    }
+
+}
+
 .ds__page__section {
     padding: 64px 0 80px 0;
 
