@@ -58,7 +58,8 @@ $white: #fff;
 
         @media screen and (max-width: 500px) {
             top: 70%;
-            font-size: 2.2rem;;
+            font-size: 2.2rem;
+            ;
             line-height: 1.2rem;
         }
 
@@ -83,11 +84,11 @@ $white: #fff;
 .ds__course__section {
     padding: 128px 0 80px 0;
 
-    &._pt-0{
+    &._pt-0 {
         padding-top: 0;
     }
 
-    &._pb-128{
+    &._pb-128 {
         padding-bottom: 200px;
     }
 
@@ -96,11 +97,11 @@ $white: #fff;
 .ds__option__section {
     padding: 128px 0 80px 0;
 
-    &._pt-0{
+    &._pt-0 {
         padding-top: 0;
     }
 
-    &._pb-128{
+    &._pb-128 {
         padding-bottom: 200px;
     }
 
@@ -136,7 +137,7 @@ $white: #fff;
 
     }
 
-    &__img{
+    &__img {
         width: 52%;
 
         @media screen and (max-width: 768px) {
@@ -263,7 +264,7 @@ $white: #fff;
 
             & dl {
                 padding: 16px 12px;
-                border-bottom:1px dotted $light_brown;
+                border-bottom: 1px dotted $light_brown;
 
                 @media screen and (max-width: 768px) {
                     margin-bottom: 12px;
@@ -272,7 +273,7 @@ $white: #fff;
             }
 
             & dl:first-child {
-                border-top:1px dotted $light_brown;
+                border-top: 1px dotted $light_brown;
 
                 @media screen and (max-width: 768px) {
                     border-top: none;
@@ -310,8 +311,8 @@ $white: #fff;
 }
 
 // 共通内容
-.ds__course__common{
-    border:1px solid $light_brown;
+.ds__course__common {
+    border: 1px solid $light_brown;
     padding: 44px 52px;
 
     @media screen and (max-width: 1200px) {
@@ -319,15 +320,17 @@ $white: #fff;
     }
 
     @media screen and (max-width: 768px) {
-        padding: 22px  12px;
-        margin:0 8px ;
+        padding: 22px 12px;
+        margin: 0 8px;
     }
-    &__title{
+
+    &__title {
         position: relative;
         font-size: 1.4rem;
         letter-spacing: 0.6rem;
         color: $light_brown;
         margin-bottom: 24px;
+
         &::after {
             position: absolute;
             content: "";
@@ -338,6 +341,7 @@ $white: #fff;
             background: $light_brown;
         }
     }
+
     &__txt {
         & li {
             display: block;
@@ -357,7 +361,8 @@ $white: #fff;
                 left: 0;
             }
         }
-        &__anno{
+
+        &__anno {
             font-size: 0.8rem !important;
             margin-bottom: 0.6rem !important;
             letter-spacing: 0.2rem;
@@ -368,28 +373,78 @@ $white: #fff;
 
 
 // 記事ページ
-.ds__page{
-    &__title{
+.ds__page {
+    &__title {
         font-size: 1.6rem;
         line-height: 2rem;
         letter-spacing: 0.2rem;
-        padding:12px 4px ;
-        border-bottom:3px solid $deep_brown;
+        padding: 12px 4px;
+        border-bottom: 3px solid $deep_brown;
     }
 
-    &__time{
+    &__time {
         font-size: 0.8rem;
         color: #030303;
         opacity: 0.5;
     }
 
-    &__img{
+    &__img {
         width: 50%;
-        margin:32px auto 44px auto;
+        margin: 32px auto 44px auto;
 
         @media screen and (max-width: 550px) {
             width: 70%;
         }
     }
 }
-    
+
+// オプションページ
+.ds__option {
+    &__flex {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    &__box {
+        width: 48%;
+        box-shadow: 2px 4px 12px rgba(74, 74, 74, 0.4);
+        padding: 24px 20px;
+        margin-bottom: 44px;
+
+        @media screen and (max-width: 768px) {
+            width: 100%;
+        }
+
+        &:nth-child(2n+1) {
+            margin-right: 32px;
+
+            @media screen and (max-width: 768px) {
+                margin-right: 0;
+            }
+        }
+
+
+        &__title {
+            color: $deep_brown;
+            margin-top: 24px;
+            margin-bottom: 12px;
+            font-size: 1rem;
+        }
+
+        &__st {
+            font-size: 1.4rem;
+            font-weight: bold;
+            letter-spacing: 0.3rem;
+            margin-bottom: 24px;
+        }
+
+        &__txt {
+            font-size: 0.8rem;
+            letter-spacing: 0.15rem;
+            line-height: 1.8rem;
+            background: rgb(170, 151, 143, 0.1);
+            padding: 4px 10px;
+        }
+    }
+}
