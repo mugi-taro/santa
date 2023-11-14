@@ -430,21 +430,36 @@ $white: #fff;
             margin-top: 24px;
             margin-bottom: 12px;
             font-size: 1rem;
+
+            @media screen and (max-width: 550px) {
+                font-size: 0.8rem;
+            }
         }
 
         &__st {
+            min-height: 80px;
             font-size: 1.4rem;
             font-weight: bold;
             letter-spacing: 0.3rem;
             margin-bottom: 24px;
+
+            @media screen and (max-width: 550px) {
+                min-height: 30px;
+                font-size: 1.2rem;
+            }
         }
 
         &__txt {
+            min-height: 120px;
             font-size: 0.8rem;
             letter-spacing: 0.15rem;
             line-height: 1.8rem;
             background: rgb(170, 151, 143, 0.1);
             padding: 4px 10px;
+
+            @media screen and (max-width: 550px) {
+                font-size: 0.6rem;
+            }
         }
     }
 }

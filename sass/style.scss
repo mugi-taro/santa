@@ -157,6 +157,14 @@ li {
         @media screen and (max-width: 540px) {
             padding: 72px 5px;
         }
+
+        &--page {
+            padding: 0 110px;
+
+            @media screen and (max-width: 1200px) {
+                padding: 0 12px;
+            }
+        }
     }
 
     &--course {
@@ -166,6 +174,7 @@ li {
             padding: 0;
         }
     }
+
 }
 
 // タイトルとテキスト
@@ -248,7 +257,7 @@ li {
                 margin-left: 44px;
 
                 @media screen and (max-width: 500px) {
-                    font-size: 1.8rem;
+                    font-size: 1.6rem;
                     letter-spacing: 0.2rem;
                 }
             }

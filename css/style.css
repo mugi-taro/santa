@@ -158,6 +158,14 @@ li {
     padding: 72px 5px;
   }
 }
+.ds__site__inner--option--page {
+  padding: 0 110px;
+}
+@media screen and (max-width: 1200px) {
+  .ds__site__inner--option--page {
+    padding: 0 12px;
+  }
+}
 .ds__site__inner--course {
   padding: 0 110px;
 }
@@ -240,7 +248,7 @@ li {
 }
 @media screen and (max-width: 500px) {
   .ds__site__title--course h2 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     letter-spacing: 0.2rem;
   }
 }
