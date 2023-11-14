@@ -230,8 +230,19 @@ li {
   border-radius: 10px;
   background: #fff;
 }
+@media screen and (max-width: 500px) {
+  .ds__site__title--course::before {
+    height: 2px;
+  }
+}
 .ds__site__title--course h2 {
   margin-left: 44px;
+}
+@media screen and (max-width: 500px) {
+  .ds__site__title--course h2 {
+    font-size: 1.8rem;
+    letter-spacing: 0.2rem;
+  }
 }
 @media screen and (max-width: 540px) {
   .ds__site__title--option {
