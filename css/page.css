@@ -563,7 +563,7 @@
 }
 .ds__option__carate__flex {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 .ds__option__carate__img {
