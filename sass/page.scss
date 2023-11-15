@@ -97,14 +97,21 @@ $white: #fff;
 .ds__option__section {
     padding: 128px 0 80px 0;
 
+    @media screen and (max-width: 550px) {
+        padding: 64px 0 80px 0;
+    }
+
     &._pt-0 {
         padding-top: 0;
     }
 
-    &._pb-128 {
-        padding-bottom: 200px;
+    &._mb-128 {
+        margin-bottom: 128px;
     }
+}
 
+._bg_green{
+    background: rgb(125, 155, 129, 0.4);
 }
 
 .ds__page__section {
@@ -412,16 +419,49 @@ $white: #fff;
         padding: 24px 20px;
         margin-bottom: 44px;
 
-        @media screen and (max-width: 768px) {
+        @media screen and (max-width: 850px) {
+            width: 46%;
+        }
+
+        @media screen and (max-width: 720px) {
+            width: 80%;
+        }
+
+        @media screen and (max-width: 550px) {
             width: 100%;
         }
 
         &:nth-child(2n+1) {
             margin-right: 32px;
 
-            @media screen and (max-width: 768px) {
+            @media screen and (max-width: 720px) {
                 margin-right: 0;
             }
+        }
+
+
+        &--last {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            width: 99%;
+            box-shadow: 2px 4px 12px rgba(74, 74, 74, 0.4);
+            padding: 24px 20px;
+            margin: 0 auto;
+            margin-bottom: 44px;
+
+            @media screen and (max-width: 850px) {
+                width: 96%;
+            }
+
+            @media screen and (max-width: 720px) {
+                width: 80%;
+            }
+    
+            @media screen and (max-width: 550px) {
+                width: 100%;
+            }
+    
         }
 
 
@@ -434,6 +474,15 @@ $white: #fff;
             @media screen and (max-width: 550px) {
                 font-size: 0.8rem;
             }
+
+            &--last{
+                @extend .ds__option__box__title;
+                margin-top: 0;
+
+                @media screen and (max-width: 720px) {
+                    margin-top: 24px;
+                }
+            }
         }
 
         &__st {
@@ -443,10 +492,35 @@ $white: #fff;
             letter-spacing: 0.3rem;
             margin-bottom: 24px;
 
+            @media screen and (max-width: 720px) {
+                min-height: unset;
+            }
+
             @media screen and (max-width: 550px) {
-                min-height: 30px;
                 font-size: 1.2rem;
             }
+
+            &--small {
+                @extend .ds__option__box__st;
+                min-height: 40px;
+
+                @media screen and (max-width: 1050px) {
+                    min-height: 80px;
+                }
+                @media screen and (max-width: 720px) {
+                    min-height: unset;
+                }
+            }
+
+            &--last{
+                @extend .ds__option__box__st;
+                min-height: 40px;
+
+                @media screen and (max-width: 720px) {
+                    min-height: unset;
+                }
+            }
+
         }
 
         &__txt {
@@ -457,8 +531,43 @@ $white: #fff;
             background: rgb(170, 151, 143, 0.1);
             padding: 4px 10px;
 
+            @media screen and (max-width: 1050px) {
+                min-height: 150px;
+            }
+
+            @media screen and (max-width: 820px) {
+                min-height: 180px;
+            }
+
+            @media screen and (max-width: 720px) {
+                min-height: unset;
+            }
+
             @media screen and (max-width: 550px) {
                 font-size: 0.6rem;
+            }
+
+            &--last{
+                @extend .ds__option__box__txt;
+                min-height: 235px;
+
+                @media screen and (max-width: 720px) {
+                    min-height: unset;
+                }
+            }
+        }
+
+        &__left{
+            width: 48%;
+            @media screen and (max-width: 720px) {
+                width: 100%;
+            }
+        }
+
+        &__right{
+            width: 48%;
+            @media screen and (max-width: 720px) {
+                width: 100%;
             }
         }
     }
