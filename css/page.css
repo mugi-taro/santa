@@ -70,6 +70,11 @@
 .ds__course__section {
   padding: 128px 0 80px 0;
 }
+@media screen and (max-width: 550px) {
+  .ds__course__section {
+    padding: 64px 0 80px 0;
+  }
+}
 .ds__course__section._pt-0 {
   padding-top: 0;
 }
@@ -250,7 +255,6 @@
 }
 @media screen and (max-width: 768px) {
   .ds__course__detail__tax__price dl {
-    margin-bottom: 12px;
     border-bottom: none;
   }
 }

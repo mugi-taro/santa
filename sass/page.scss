@@ -83,6 +83,10 @@ $white: #fff;
 .ds__course__section {
     padding: 128px 0 80px 0;
 
+    @media screen and (max-width: 550px) {
+        padding: 64px 0 80px 0;
+    }
+
     &._pt-0 {
         padding-top: 0;
     }
@@ -277,7 +281,6 @@ $white: #fff;
                 border-bottom: 1px dotted $light_brown;
 
                 @media screen and (max-width: 768px) {
-                    margin-bottom: 12px;
                     border-bottom: none;
                 }
             }
@@ -320,6 +323,7 @@ $white: #fff;
 
         &__txt {
             margin-top: 1.2rem;
+
             & li {
                 display: block;
                 position: relative;
