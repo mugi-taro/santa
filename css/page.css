@@ -593,6 +593,12 @@
     margin-bottom: 32px;
   }
 }
+@media screen and (max-width: 690px) {
+  .ds__option__carate__img img {
+    width: 100%;
+    height: 220px;
+  }
+}
 .ds__option__carate__menu {
   width: 50%;
 }
