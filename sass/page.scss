@@ -317,6 +317,26 @@ $white: #fff;
                 margin-left: 0;
             }
         }
+
+        &__txt {
+            margin-top: 1.2rem;
+            & li {
+                display: block;
+                position: relative;
+                padding-left: 1.5em;
+                font-size: 0.8rem;
+                letter-spacing: 0.2rem;
+                margin-bottom:0.6rem;
+                opacity: 0.6;
+    
+                & span {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
+            }
+
+        }
     }
 }
 
@@ -370,13 +390,6 @@ $white: #fff;
                 top: 0;
                 left: 0;
             }
-        }
-
-        &__anno {
-            font-size: 0.8rem !important;
-            margin-bottom: 0.6rem !important;
-            letter-spacing: 0.2rem;
-            opacity: 0.6;
         }
     }
 }
