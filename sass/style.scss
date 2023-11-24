@@ -141,6 +141,22 @@ li {
         @media screen and (max-width: 540px) {
             padding: 60px 12px;
         }
+
+        @media screen and (max-width: 440px) {
+            padding: 50px 12px;
+        }
+
+        @media screen and (max-width: 420px) {
+            padding: 36px 12px;
+        }
+
+        @media screen and (max-width: 400px) {
+            padding: 20px 12px;
+        }
+
+        @media screen and (max-width: 390px) {
+            padding: 60px 12px;
+        }
     }
 
     &--option {

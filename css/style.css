@@ -140,6 +140,26 @@ li {
     padding: 60px 12px;
   }
 }
+@media screen and (max-width: 440px) {
+  .ds__site__inner--news {
+    padding: 50px 12px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .ds__site__inner--news {
+    padding: 36px 12px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .ds__site__inner--news {
+    padding: 20px 12px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .ds__site__inner--news {
+    padding: 60px 12px;
+  }
+}
 .ds__site__inner--option {
   padding: 80px 110px;
 }
