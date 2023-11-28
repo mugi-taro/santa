@@ -87,6 +87,12 @@ li {
     margin-right: 12px !important;
 }
 
+._anchor-just {
+    display: block;
+    padding-top: 70px;
+    margin-top: -70px;
+}
+
 /*--------------------------------
 レイアウト
 ---------------------------------*/
@@ -113,7 +119,7 @@ li {
 }
 
 .ds__site__inner {
-    padding: 80px 110px;
+    padding: 120px 110px;
 
     @media screen and (max-width: 1000px) {
         padding: 60px 32px;
@@ -160,7 +166,7 @@ li {
     }
 
     &--option {
-        padding: 80px 110px;
+        padding: 120px 110px;
 
         @media screen and (max-width: 1000px) {
             padding: 60px 32px;
