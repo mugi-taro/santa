@@ -81,15 +81,32 @@ li {
 
 ._anchor-just {
   display: block;
-  padding-top: 70px;
-  margin-top: -70px;
+  padding-top: 20px;
+  margin-top: -20px;
+}
+@media screen and (max-width: 500px) {
+  ._anchor-just {
+    padding-top: 10px;
+    margin-top: -10px;
+  }
+}
+._anchor-just--about {
+  display: block;
+  padding-top: 60px;
+  margin-top: -60px;
+}
+@media screen and (max-width: 500px) {
+  ._anchor-just--about {
+    padding-top: 40px;
+    margin-top: -40px;
+  }
 }
 
 /*--------------------------------
 レイアウト
 ---------------------------------*/
 .ds__site__section {
-  margin-top: 200px;
+  margin-top: 160px;
 }
 @media screen and (max-width: 500px) {
   .ds__site__section {
@@ -111,7 +128,7 @@ li {
 }
 
 .ds__site__inner {
-  padding: 120px 110px;
+  padding: 80px 110px;
 }
 @media screen and (max-width: 1000px) {
   .ds__site__inner {
@@ -129,11 +146,11 @@ li {
   }
 }
 .ds__site__inner--news {
-  padding: 40px 110px 0 110px;
+  padding: 40px 110px;
 }
 @media screen and (max-width: 1000px) {
   .ds__site__inner--news {
-    padding: 40px 32px 0 32px;
+    padding: 40px 32px;
   }
 }
 @media screen and (max-width: 800px) {
@@ -167,7 +184,7 @@ li {
   }
 }
 .ds__site__inner--option {
-  padding: 120px 110px;
+  padding: 80px 110px;
 }
 @media screen and (max-width: 1000px) {
   .ds__site__inner--option {

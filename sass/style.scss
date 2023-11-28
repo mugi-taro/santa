@@ -89,15 +89,32 @@ li {
 
 ._anchor-just {
     display: block;
-    padding-top: 70px;
-    margin-top: -70px;
+    padding-top: 20px;
+    margin-top: -20px;
+
+    @media screen and (max-width: 500px) {
+        padding-top: 10px;
+        margin-top: -10px;
+    }
+
+    &--about{
+        display: block;
+        padding-top: 60px;
+        margin-top: -60px;
+
+        @media screen and (max-width: 500px) {
+            padding-top: 40px;
+            margin-top: -40px;
+        }
+    }
+
 }
 
 /*--------------------------------
 レイアウト
 ---------------------------------*/
 .ds__site__section {
-    margin-top: 200px;
+    margin-top: 160px;
 
     @media screen and (max-width: 500px) {
         margin-top: 80px;
@@ -119,7 +136,7 @@ li {
 }
 
 .ds__site__inner {
-    padding: 120px 110px;
+    padding: 80px 110px;
 
     @media screen and (max-width: 1000px) {
         padding: 60px 32px;
@@ -134,10 +151,10 @@ li {
     }
 
     &--news {
-        padding: 40px 110px 0 110px;
+        padding: 40px 110px;
 
         @media screen and (max-width: 1000px) {
-            padding: 40px 32px 0 32px;
+            padding: 40px 32px;
         }
 
         @media screen and (max-width: 800px) {
@@ -166,7 +183,7 @@ li {
     }
 
     &--option {
-        padding: 120px 110px;
+        padding: 80px 110px;
 
         @media screen and (max-width: 1000px) {
             padding: 60px 32px;
