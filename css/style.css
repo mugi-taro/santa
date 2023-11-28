@@ -81,8 +81,8 @@ li {
 
 ._anchor-just {
   display: block;
-  padding-top: 20px;
-  margin-top: -20px;
+  padding-top: 30px;
+  margin-top: -30px;
 }
 @media screen and (max-width: 500px) {
   ._anchor-just {
@@ -92,13 +92,24 @@ li {
 }
 ._anchor-just--about {
   display: block;
-  padding-top: 60px;
-  margin-top: -60px;
+  padding-top: 90px;
+  margin-top: -90px;
 }
 @media screen and (max-width: 500px) {
   ._anchor-just--about {
-    padding-top: 40px;
-    margin-top: -40px;
+    padding-top: 80px;
+    margin-top: -80px;
+  }
+}
+._anchor-just--option {
+  display: block;
+  padding-top: 40px;
+  margin-top: -40px;
+}
+@media screen and (max-width: 500px) {
+  ._anchor-just--option {
+    padding-top: 20px;
+    margin-top: -20px;
   }
 }
 
